@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Poker Card Game</title>
+  </head>
+  <body>
+    Board:<div id="board" style="display: block;">
+      <div id="card1"></div>
+      <div id="card2"></div>
+      <div id="card3"></div>
+      <div id="card4"></div>
+      <div id="card5"></div>
+    </div>
+    <hr/>
+    Player's card:
+    <div id="playerCards">
+      <div id="playerCard1"></div>
+      <div id="playerCard2"></div>
+      <button onclick="javascript: nextStep(this);">Reveal first 3 cards</button>
+    </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
